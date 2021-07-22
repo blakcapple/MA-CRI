@@ -1,0 +1,4 @@
+n 个 human，n 个 robot 
+human 用orca策略，robot用强化学习策略
+每个robot 有自己的策略网络和价值网络
+每个回合随机放置human和robot的位置，每个human 和 robot 有自己的目标位置，当一个robot达到终点或发生碰撞时停止运动，所有的robot都停止运动时或者系统超市时，回合结束 
